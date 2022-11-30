@@ -1,0 +1,106 @@
+.main {
+	background-image: linear-gradient(
+		to bottom,
+		#4d486b 0%,
+		#7b58a7 70%,
+		#ceabeb 100%
+	);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.message {
+	color: rgb(12, 12, 11);
+	font-size: 2.9rem;
+	align-items: center;
+	font-family: "Segoe UI";
+	text-shadow: 1px 1px 2px rgb(48, 6, 238), 0 0 25px #5a0791,
+		0 0 5px rgb(1, 1, 14);
+}
+
+.user-message {
+	color: rgb(12, 12, 11);
+	font-size: 2.9rem;
+	align-items: center;
+	font-family: "Segoe UI";
+	text-shadow: 1px 1px 2px rgb(48, 6, 238), 0 0 25px #5a0791,
+		0 0 5px rgb(1, 1, 14);
+}
+
+.buttons {
+	color: rgb(23, 5, 66);
+	font-size: 3.9rem;
+	border: none;
+	/* background-position: 20px 40px; */
+	/* padding: 16px 32px; */
+	text-align: center;
+	text-decoration: none;
+	/* display: inline-block; */
+	margin: 4px 2px;
+	/* transition-duration: 1.0s; */
+	cursor: pointer;
+}
+
+.buttons span {
+	padding-left: 40px;
+	padding-right: 40px;
+    /* transition: transform .2s;  */
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+
+.buttons span:hover {
+	color: white;
+	transform: scale(2.5);
+    text-shadow: 1px 1px 1px rgb(48, 6, 238), 0 0 25px #0ab1c7,
+		0 0 5px rgb(14, 1, 1);
+}
+
+.increament-button {
+	width: 80px;
+	height: 90px;
+	text-align: center;
+	font-family: "Franklin Gothic Medium";
+	box-shadow: 1px 1px 2px rgb(240, 7, 7), 0 0 25px #4f037a,
+		0 0 5px rgb(5, 139, 0);
+	font-size: 2.5rem;
+	text-shadow: 1px 1px 2px rgb(48, 6, 238), 0 0 25px #5a0791,
+		0 0 5px rgb(1, 1, 14);
+}
+
+.increament-button:hover {
+	background-color: #5a0791;
+	color: white;
+	text-shadow: 1px 1px 2px rgb(48, 6, 238), 0 0 25px #5a0791,
+		0 0 5px rgb(1, 1, 14);
+	box-shadow: 1px 1px 2px rgb(48, 6, 238), 0 0 25px #0ab1c7,
+		0 0 5px rgb(14, 1, 1);
+}
+
+.decreament-button {
+	width: 80px;
+	height: 90px;
+	text-align: center;
+	font-family: "Franklin Gothic Medium";
+	box-shadow: 1px 1px 2px rgb(240, 7, 7), 0 0 25px #4f037a,
+		0 0 5px rgb(5, 139, 0);
+	font-size: 2.5rem;
+	text-shadow: 1px 1px 2px rgb(48, 6, 238), 0 0 25px #5a0791,
+		0 0 5px rgb(1, 1, 14);
+}
+
+.decreament-button:hover {
+	background-color: #5a0791;
+	color: white;
+	text-shadow: 1px 1px 2px rgb(48, 6, 238), 0 0 25px #5a0791,
+		0 0 5px rgb(1, 1, 14);
+	box-shadow: 1px 1px 2px rgb(48, 6, 238), 0 0 25px #0ab1c7,
+		0 0 5px rgb(14, 1, 1);
+}
